@@ -31,3 +31,5 @@ O projeto está organizado da seguinte maneira:
 ## Objetivos Futuros
 
 Este projeto será expandido para incluir novos recursos e funcionalidades, servindo como base para projetos acadêmicos e outros experimentos em desenvolvimento web.
+
+<img src="https://i.ibb.co/L5NqctS/image.png" alt="image" border="0">
