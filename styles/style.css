@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9; /* Fundo mais claro para contraste */
+}
+
+header {
+    background: rgb(56, 63, 93);
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para destaque */
+}
+
+header .logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 30px; /* Aumentar o espaçamento entre os itens */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s; /* Transição suave para hover */
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Cor de destaque ao passar o mouse */
+}
+
+ul {
+    list-style-type: none; /* Remove os marcadores de todas as listas */
+    padding: 0; /* Remove o padding padrão */
+    margin: 0; /* Remove a margem padrão */
+}
+
+#cover {
+    height: 400px;
+    background: url('/imagens/capa.png') no-repeat center center;
+    background-size: cover;
+    position: relative; /* Para posicionar o texto sobre a imagem */
+}
+
+#cover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Sobreposição escura para melhor legibilidade */
+}
+
+.intro {
+    text-align: center;
+    padding: 60px 20px;
+    background: #ffffff; /* Fundo branco para contraste */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para destaque */
+    margin: -20px 0 20px; /* Margem negativa para sobrepor o cabeçalho */
+}
+
+.intro h1 {
+    font-size: 40px;
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+.intro p {
+    font-size: 18px; /* Aumentar o tamanho da fonte do parágrafo */
+    max-width: 800px; /* Limitar a largura do texto */
+    margin: 0 auto; /* Centralizar o texto */
+}
+
+#about {
+    padding: 40px 20px;
+    text-align: center;
+    background: #f4f4f4; /* Fundo cinza claro */
+}
+
+#about h2 {
+    font-size: 32px;
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+#contact {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px; /* Aumentar a largura máxima do formulário */
+    margin: auto;
+    background: #ffffff; /* Fundo branco para o formulário */
+    padding: 20px;
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para destaque */
+    margin-bottom: 50px;
+
+}
+
+form label {
+    margin: 10px 0 5px;
+    font-weight: bold; /* Negrito para os rótulos */
+}
+
+form input, form textarea {
+    padding: 12px; /* Aumentar o padding */
+    margin-bottom: 15px; /* Aumentar o espaçamento entre os campos */
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Bordas arredondadas */
+    transition: border-color 0.3s; /* Transição suave para foco */
+}
+
+form input:focus, form textarea:focus {
+    border-color: rgb(56, 63, 93); /* Cor de destaque ao focar */
+}
+
+form button {
+    padding: 12px;
+    background: rgb(56, 63, 93);
+    color: white;
+    border: none;
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer;
+    transition: background 0.3s; /* Transição suave para hover */
+}
+
+form button:hover {
+    background: #ffcc00; /* Cor de destaque ao passar o mouse */
+}
+
+footer {
+    background: rgb(56, 63, 93);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Sombra para destaque */
+    text-decoration: none;
+    list-style: none;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px; /* Espaçamento abaixo da lista */
+    text-decoration: none;
+    flex-direction: row;
+    list-style: none;
+}
+
+footer li {
+    margin-left: 20px; /* Aumentar o espaçamento entre os itens */
+    text-decoration: none;
+    list-style: none;
+}
+
+footer a {
+    color: white;
+    transition: color 0.3s; /* Transição suave para hover */
+    text-decoration: none;
+    list-style: none;
+}
+
+footer a:hover {
+    color: #ffcc00; /* Cor de destaque ao passar o mouse */
+}
+
+.contat-list{
+    text-decoration: none;
+}
